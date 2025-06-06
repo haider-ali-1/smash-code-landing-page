@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smash Code</title>
+  <link rel="shortcut icon" href="./assests/images/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+  <link rel="stylesheet" href="./assests/css/utilities.css" />
+  <link rel="stylesheet" href="./assests/css/style.css" />
+</head>
+
+<body>
+  <div class="backdrop"></div>
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__logo">
+        <a href=""><img src="./assests/images/logo.png" alt="Smash Code Logo" /></a>
+      </div>
+
+      <div class="header__toggle">
+        <button><i class="fa-solid fa-bars"></i></button>
+      </div>
+
+      <nav class="header__nav">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">PROJECTS</a></li>
+          <li><a href="">SERVICES</a></li>
+          <li><a href="">BLOGS</a></li>
+          <li><a href="">ABOUT</a></li>
+        </ul>
+      </nav>
+      <div class="header__nav-contact">
+        <ul>
+          <li><a class="contact-link" href="">Contact</a></li>
+        </ul>
+      </div>
+
+      <nav class="header__nav-mobile">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">PROJECTS</a></li>
+          <li><a href="">SERVICES</a></li>
+          <li><a href="">BLOGS</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a class="contact-link" href="">Contact</a></li>
+        </ul>
+        <button><i class="fa-solid fa-xmark"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="projects-section">
+      <div class="projects-section__container container">
+        <p class="title">Projects</p>
+        <nav class="category-nav">
+          <ul class="category-list">
+            <li><button class="category-btn active">Web Development</button></li>
+            <li><button class="category-btn">Graphic Designing</button></li>
+            <li><button class="category-btn">Content Writing</button></li>
+            <li><button class="category-btn">Blockchain</button></li>
+          </ul>
+        </nav>
+        <nav class="subcategory-nav">
+          <ul class="subcategory-list">
+            <li><button class="subcategory-btn">Landing Page</button></li>
+            <li><button class="subcategory-btn">Front End</button></li>
+            <li><button class="subcategory-btn">Functionality</button></li>
+            <li><button class="subcategory-btn active">Full stack</button></li>
+          </ul>
+        </nav>
+
+        <section class="cards">
+          <article class="card gradient-yellow">
+            <p class="card__title">Wrapp</p>
+            <p class="card__content">
+              It is a full-stack web app for scrapping products data from
+              different sites like Amazon, Target, Walmart and Best Buy.
+            </p>
+            <video class="card__media" src="./assests/video/video.mp4" controls></video>
+            <a class="card__btn" href="">View more</a>
+          </article>
+          <article class="card gradient-occean">
+            <p class="card__title">MCB gitbook AI</p>
+            <p class="card__content">
+              It is an AI web app where a user can enter his prompt and get an
+              answer from AI. We have convertedits design from figma into
+              ReactJs. Also, we have integrated AI API to make it functional
+            </p>
+            <video class="card__media" src="./assests/video/video.mp4" controls></video>
+            <a class="card__btn" href="">View more</a>
+          </article>
+          <article class="card gradient-yellow">
+            <p class="card__title">Plushies</p>
+            <p class="card__content">
+              This is a full-stack NFT project that shows NFT art Admin can
+              control NFT projects from the dashboard. We developed this project
+              using React Js and Firebase. It has multiple pages and a
+              completely responsive design for all devices. It has a modern
+              design with smooth animations.
+            </p>
+            <video class="card__media" src="./assests/video/video.mp4" controls></video>
+            <a class="card__btn" href="">View more</a>
+          </article>
+          <article class="card gradient-purple">
+            <p class="card__title">Employees Management</p>
+            <p class="card__content">
+              This is a full stock website that has only desstop view. We
+              created it using reactjs and firabose. There are three roles
+              (admin, semi admin and user). Admin and semi admin can upload
+              docs, create quizzes and update the heaith checkup date for the
+              users (semi admin can only do for their group). Users can read
+              docs and update the admin via website and attempt the quiz then
+              their score is shown to the admin.
+            </p>
+            <video class="card__media" src="./assests/video/video.mp4" controls></video>
+            <a class="card__btn" href="">View more</a>
+          </article>
+
+          <article class="card gradient-pink">
+            <p class="card__title">Flowriter</p>
+            <p class="card__content">
+              Flow Writer is a typing project with uniquis options. It is
+              developed for fluerit typing without getting any distractions. It
+              has the ability to switch dark and light themes. Also, the user
+              con manually enter into the typing process and select other
+              options so that the editor can work accordingly. No editing
+              feature prevents backspaces and previous line editing.
+            </p>
+            <video class="card__media" src="./assests/video/video.mp4" controls></video>
+            <a class="card__btn" href="">View more</a>
+          </article>
+
+          <article class="card gradient-yellow">
+            <p class="card__title">Lightmo</p>
+            <p class="card__content">
+              This is on Event raffle project based on mobile app ut it has
+              amazing features and design. Every user can join a live event and
+              win. The event.con be created by the admin of the event who can
+              select a number of winners. Then, the computer will automatically
+              choose the winner like a lucky draw. Every user will see the
+              event, results, and flashing screen animations in real time.
+            </p>
+            <video class="card__media" src="./assests/video/video.mp4" controls></video>
+            <a class="card__btn" href="">View more</a>
+          </article>
+          <article class="card gradient-yellow">
+            <p class="card__title">Dizzy Angeles</p>
+            <p class="card__content">
+              This is a portfolio website of a music artist with complete
+              authentication and an admin dashboard. Firebase is used in the
+              website for the back-end database. This portfolio is created in
+              ReactJs.
+            </p>
+            <video class="card__media" src="./assests/video/video.mp4" controls></video>
+            <a class="card__btn" href="">View more</a>
+          </article>
+          <article class="card gradient-blue">
+            <p class="card__title">Singular Trader Academy</p>
+            <p class="card__content">
+              Singular Trader Academy was built in React.js and Google Firebase.
+              It is an online course web app. There is an Admin panel where the
+              admin can upload his course videos according to chapters. Users
+              can signup and pay a minimum fee for the course subscription.
+            </p>
+            <video class="card__media" src="./assests/video/video.mp4" controls></video>
+            <a class="card__btn" href="">View more</a>
+          </article>
+          <article class="card gradient-pink">
+            <p class="card__title">Talenya</p>
+            <p class="card__content">
+              This is a Colt Calculation website created in Reactis. It hos
+              Emaills and Material-il components. On this website, users can
+              calculate the total cost they want to spend to get prepared for
+              Interviews. The final report is sent via Emallis to user's email
+              address.
+            </p>
+            <video class="card__media" src="./assests/video/video.mp4" controls></video>
+            <a class="card__btn" href="">View more</a>
+          </article>
+          <article class="card gradient-blue">
+            <p class="card__title">Feedback Form/Review Form</p>
+            <p class="card__content">
+              This is a user feedback forrn with multi steps. It is connected
+              with backend in Google firebase.
+            </p>
+            <img class="card__media--image" src="./assests/images/img1.jpg" alt="Project Image" srcset="" />
+            <a class="card__btn" href="">View more</a>
+          </article>
+          <article class="card gradient-yellow">
+            <p class="card__title">Economico</p>
+            <p class="card__content">
+              This Full Stack e-commerce system is developed in React is and
+              Google Firebase. Users can find great businesses in different
+              categories nearby. It works on Android and IOS. Users can
+              conveniently use the program on mobile, tablets, and desktops.
+            </p>
+            <img class="card__media--image" src="./assests/images/img2.jpg" alt="Project Image" srcset="" />
+            <a class="card__btn" href="">View more</a>
+          </article>
+          <article class="card gradient-pink">
+            <p class="card__title">Tech Kit</p>
+            <p class="card__content">
+              Teck Kit product is built in React.js and Google Firebase. It has
+              sections of admin dashboard and user role. Users can also add
+              categories and products. This website is responsive and has dark
+              light theme.
+            </p>
+            <video class="card__media" src="./assests/video/video.mp4" controls></video>
+            <a class="card__btn" href="">View more</a>
+          </article>
+      </div>
+    </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+
+    <div class="footer-container container">
+      <div class="footer-sections top">
+        <section class="footer-section location">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <h4>Location</h4>
+            <p>Pakistan</p>
+          </div>
+        </section>
+        <section class="footer-section whatsapp">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <div>
+            <h4>Contact Whatsapp</h4>
+            <p>+92 3071991737</p>
+          </div>
+        </section>
+        <section class="footer-section email">
+          <i class="fa-regular fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <p>smashcode.dev@gmail.com </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="footer-sections bottom">
+        <section class="footer-section about">
+          <img src="./assests/images/logo.png" alt="Smash Code Logo">
+          <p>Smash Code is a Web Design & Development Company based in Pakistan, founded in 2019. We are a team of
+            skilled Web Designers & Developers, Graphic Designers, and Content & Copy Writers.</p>
+          <h4>Registered By PSEB</h4>
+          <img src="./assests/images/img3.png" alt="PSEB Logo">
+        </section>
+
+        <section class="footer-section links">
+          <h4>Quick - Links</h4>
+          <ul class="links-wrapper">
+            <li><a href=""><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+            <li><a href=""><i class="fa-solid fa-user"></i>About</a></li>
+            <li><a href=""><i class="fa-solid fa-phone-flip"></i>Contact</a></li>
+            <li><a href=""><i class="fa-brands fa-servicestack"></i>Services</a></li>
+            <li><a href=""><i class="fa-solid fa-diagram-project"></i>Projects</a></li>
+            <li><a href=""><i class="fa-solid fa-book"></i>Blogs</a></li>
+          </ul>
+          <h4>What people say about us</h4>
+          <img src="./assests/images/google.jpeg" alt="" srcset="">
+        </section>
+
+        <section class="footer-section social">
+          <h4>Social - Links</h4>
+          <div class="social-links">
+            <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="" class="github"><i class="fab fa-github"></i></a>
+            <a href="" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            <a href="" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="" class="medium"><i class="fab fa-medium-m"></i></a>
+            <a href="" class="youtube"><i class="fab fa-youtube"></i></a>
+            <a href="" class="tiktok"><i class="fab fa-tiktok"></i></a>
+            <a href="" class="pinterest"><i class="fab fa-pinterest-p"></i></a>
+            <a href="" class="quora"><i class="fab fa-quora"></i></a>
+          </div>
+      </div>
+      </section>
+    </div>
+    <section class="copyright">
+      <div class="copyright container">
+        <p>Copyright &copy; All Rigts Reserved <a href="https://www.smashcode.com">Smash Code</a></p>
+      </div>
+    </section>
+  </footer>
+
+
+  <script src="./assests/js/main.js"></script>
+</body>
+
+</html>

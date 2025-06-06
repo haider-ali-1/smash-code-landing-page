@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --gradient-yellow: linear-gradient(to bottom, #fdc827, #141414);
+  --gradient-occean: linear-gradient(to bottom, #4fb0bb, #141414);
+  --gradient-purple: linear-gradient(to bottom, #7d468a, #141414);
+  --gradient-pink: linear-gradient(to bottom, #fda4a0, #141414);
+  --gradient-blue: linear-gradient(to bottom, #255ebb, #141414);
+
+  --font-body: "Lato", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #1f1f1f;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  border: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Utility Classes */
+
+.gradient-occean {
+  background: var(--gradient-occean);
+}
+
+.gradient-yellow {
+  background: var(--gradient-yellow);
+}
+
+.gradient-purple {
+  background: var(--gradient-purple);
+}
+
+.gradient-pink {
+  background: var(--gradient-pink);
+}
+
+.gradient-blue {
+  background: var(--gradient-blue);
+}
+
+.container {
+  max-width: 1300px;
+  width: 95%;
+  margin: auto;
+}
+
+/* FLEXBOX PROPERTIES */
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+/* TEXT COLOR PROPERTIES */
+
+.text-grey {
+  color: #6b6d6e;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+/* TEXT PROPERTIES */
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.linkedin {
+  background-color: #0e76a8;
+}
+
+.instagram {
+  background-color: #e1306c;
+}
+
+.tiktok,
+.medium,
+.github {
+  background-color: white;
+  color: black;
+}
+
+.youtube {
+  background-color: #990412;
+}
+
+.pinterest {
+  background-color: #fe2c55;
+}
+
+.quora {
+  background-color: #b92b27;
+}
+
+/* Utility Classes End */
