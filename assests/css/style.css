@@ -365,7 +365,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  column-gap: 4rem;
+  gap: 1rem 4rem;
 }
 
 .footer-section.links h4:first-child,
@@ -452,6 +452,9 @@
   }
   /* FOOTER */
 
+  .footer-section.links .links-wrapper {
+    row-gap: 0;
+  }
   .footer-sections.top {
     grid-template-columns: repeat(2, 1fr);
   }
