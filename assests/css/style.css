@@ -141,7 +141,7 @@
 }
 
 .projects-section__container {
-  padding: 0 3rem;
+  padding: 0 2rem;
 }
 
 .projects-section .title {
@@ -272,7 +272,7 @@
 }
 
 .footer-container {
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
 }
 
 .footer-sections.top {
@@ -413,7 +413,7 @@
 
 .copyright.container {
   text-align: center;
-  padding: 1rem 3rem;
+  padding: 2rem;
 }
 
 /* Footer Section End */
@@ -422,9 +422,10 @@
 
 @media (min-width: 768px) {
   .copyright.container,
-  .projects-section__container .footer-container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  .projects-section__container,
+  .footer-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .projects-section .cards {
@@ -490,18 +491,10 @@
 }
 
 @media (min-width: 1300px) {
-  /* .copyright.container,
-  .projects-section__container,
-  .footer-container {
-    padding-left: 6rem;
-    padding-right: 6rem;
-  } */
-
   .footer-sections.top {
     grid-template-columns: repeat(3, 1fr);
   }
   .footer-sections.bottom {
     grid-template-columns: repeat(3, 1fr);
   }
-  /* FOOTER END */
 }
