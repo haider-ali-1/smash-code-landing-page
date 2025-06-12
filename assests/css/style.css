@@ -429,13 +429,28 @@ footer {
 }
 
 .footer-copyright__container > div {
-  padding: 1rem 2rem;
+  padding-block: 2.5rem;
   text-align: center;
+  position: relative;
 }
 
-.footer-copyright a {
+.footer-copyright__container > div > p > a {
   color: #0da789;
   font-weight: 500;
+}
+
+.footer-copyright__container > div > a {
+  width: clamp(3rem, 1.878vw + 2.296rem, 5rem);
+  height: clamp(3rem, 1.878vw + 2.296rem, 5rem);
+  border-radius: 50%;
+  font-size: clamp(1.5rem, 0.939vw + 1.148rem, 2.5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
 
 .footer-copyright p {
